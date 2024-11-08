@@ -414,12 +414,6 @@ div.fila__botones a.btn{
 
 
 
-
-
-
-
-
-
 /**********************************************/
 /*contenedor__sectionprojects*/
 section.contenedor__sectionp4homeprojects{
@@ -563,9 +557,6 @@ div.sectionp4homeprojects__fila div.card3 p
 
 
 
-
-
-
 /**********************************************/
 /*contenedor__section5homecontact*/
 section.contenedor__section5homecontact{
@@ -652,9 +643,6 @@ div.bannersection div.contenedor ul li a{
 
 
 
-
-
-
 section.contenedor__seccion2about{
     height: 100%;
     background-color: #f7efeb98;
@@ -678,8 +666,6 @@ div.contenedor div.seccion2about__lado1 ul li{
 }
 
 
-
-
 div.contenedor div.seccion2about__lado2{
     float: right;
     width: 40%;
@@ -693,10 +679,6 @@ div.contenedor div.seccion2about__lado2 img{
 div.seccion2about__lado1 div.fila__botones{
     text-align: left;
 }
-
-
-
-
 
 
 
@@ -1036,9 +1018,6 @@ div.section4services__lado1 div.fila__botones{
 
 
 
-
-
-
 /**********************************************/
 /**********************************************/
 /**********************************************/
@@ -1112,12 +1091,6 @@ div.referencia3 div.referencia__lado2 p
 
 
 
-
-
-
-
-
-
 /**************************************/
 /*Responsive*/
 @media only screen and  (max-width: 575.98px) and
@@ -1169,7 +1142,8 @@ section.contenedor__section1homebanner{
 
     div.section1homebanner p{
         font-size: 0.9rem;
-        color: var(--colorEstilo3);
+        color: var(--colorEstilo1);
+        font-weight: 600;
     }
 
 
@@ -1180,9 +1154,14 @@ section.contenedor__section1homebanner{
     div.section1homebanner div.fila__botones a{
         margin: 0;
         width: 80%;
-        margin-bottom: 10px;
+        margin-bottom: 10px!important;
     }
 
+
+
+
+
+    
     /*
         div.section1homebanner div.fila__botones a.btn{
         text-align: center;
