@@ -1321,6 +1321,16 @@ form button:hover{
 }
 
 
+@media screen and (max-width: 884px) 
+{
+    section.contenedor__section2contact{
+        height: 70vh;
+    }
+}
+
+
+
+
 @media screen and (max-width: 768px) 
 {
 
