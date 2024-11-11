@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="Home">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <h1 class="logo__titulo">
+                        Biz
+                        <span>second</span>
+                    </h1>
+                </div>
+
+                <!-- menu -->
+                <div class="superior__menu">
+                    <ul class="menu__opciones">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html" style="color: #E84B2A">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- contenedor__seccion1about -->
+    <section class="contenedor__seccion1services">
+
+        <!-- banner__titulo -->
+        <div class="bannersection">
+
+            <div class="contenedor">
+                <h2>
+                    <span>Services</span>
+                </h2>
+
+
+                <ul>
+                    <li>
+                        <a href="index.html" class="resaltar">Home</a>
+                        <span>> Services</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+    <!-- contenedor__section3about -->
+    <section class="contenedor__section2services">
+        <div class="contenedor">
+
+            <h6>
+                What We Do?
+            </h6>
+
+            <h3>
+                Advertise, analyze, and optimize! We do it all for you
+            </h3>
+
+
+            <div class="section2services__fila">
+
+                <div class="services">
+                    <img src="./imagenes/s1.jpg" alt="s1" title="s1">
+
+                    <h4>
+                        Title Goes Here
+                    </h4>
+
+                    <p>
+                        Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere curae fers luctus eted.
+                    </p>
+                </div>
+
+
+
+                <div class="services">
+                    <img src="./imagenes/s2.jpg" alt="s2" title="s2">
+
+                    <h4>
+                        Title Goes Here
+                    </h4>
+
+                    <p>
+                        Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere curae fers
+                        luctus eted.
+                    </p>
+                </div>
+
+
+
+                <div class="services">
+                    <img src="./imagenes/s3.jpg" alt="s3" title="s3">
+
+                    <h4>
+                        Title Goes Here
+                    </h4>
+
+                    <p>
+                        Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere curae fers
+                        luctus eted.
+                    </p>
+                </div>
+
+
+
+                <div class="services">
+                    <img src="./imagenes/s1.jpg" alt="s1" title="s1">
+
+                    <h4>
+                        Title Goes Here
+                    </h4>
+
+                    <p>
+                        Lorem ante ipsum primis in faucibus orci luctus eted ultrices
+                        posuere curae fers
+                        luctus eted.
+                    </p>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- contenedor__section3services -->
+    <section class="contenedor__section3services">
+        <div class="contenedor">
+
+            <h6>
+                Best Services
+            </h6>
+
+            <h3>
+                More than 30+ years we provide business consulting
+            </h3>
+
+
+            <div class="section3services__fila">
+                <div class="services__card" style="background-color: #F9F9F9;">
+                    <img src="./imagenes/business2.svg" alt="business2" title="business2">
+                    <h4>Laudantium tempora rerum</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora
+                        rerum perspiciatis?
+                    </p>
+                </div>
+
+
+                <div class="services__card">
+                    <img src="./imagenes/chart-pie-solid.svg" alt="chart-pie-solid" title="chart-pie-solid">
+                    <h4>Laudantium tempora rerum</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora
+                        rerum perspiciatis?
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="section3services__fila">
+                <div class="services__card">
+                    <img src="./imagenes/piggy.svg" alt="piggy" title="piggy">
+                    <h4>Laudantium tempora rerum</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora
+                        rerum perspiciatis?
+                    </p>
+                </div>
+
+
+                <div class="services__card">
+                    <img src="./imagenes/call.svg" alt="call" title="call">
+                    <h4>Laudantium tempora rerum</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora
+                        rerum perspiciatis?
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="section3services__fila">
+                <div class="services__card">
+                    <img src="./imagenes/idea.svg" alt="idea" title="idea">
+                    <h4>Laudantium tempora rerum</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora
+                        rerum perspiciatis?
+                    </p>
+                </div>
+
+
+                <div class="services__card">
+                    <img src="./imagenes/web.svg" alt="web" title="web">
+                    <h4>Laudantium tempora rerum</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora
+                        rerum perspiciatis?
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- contenedor__section4services -->
+    <section class="contenedor__section4services">
+        <div class="contenedor">
+
+            <div class="section4services__lado1">
+                <h6>
+                    Donec sit amet velit
+                </h6>
+
+                <h3>
+                    Suspendisse interdum diam mattis
+                </h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi. Integer sit
+                    amet.
+                    Lorem
+                    ipsum dolor sit amet elit.
+                </p>
+
+
+                <div class="fila__botones">
+                    <a href="contact.html" class="btn btn__btn--black">Contact</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footer">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Rechte Vorbehalten, Entworfen von
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Jeder noch so kleine Beitrag kann das Leben eines Menschen verändern. Spende:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+
+
+</html>
